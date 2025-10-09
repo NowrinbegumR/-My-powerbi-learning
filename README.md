@@ -1,7 +1,116 @@
-This repository highlights my Power BI learning journey as I explore the complete end-to-end data analysis process, starting from ETL (Extract, Transform, Load) to data visualization and storytelling. I began learning Power BI out of my own curiosity and deep passion for transforming raw, unstructured data into meaningful and interactive insights that can drive smarter and data-informed decisions. Through this learning process, I have gained hands-on experience in data cleaning and transformation using Power Query, creating KPIs and DAX measures, building interactive dashboards with filters, slicers, maps, and charts, and presenting clear business insights through powerful visual stories.
+Power BI Learning Journey – Data Analytics & Visualization Projects
 
-I have explored and practiced a variety of concepts and tools including Power BI Desktop, Power Query for ETL, DAX (Data Analysis Expressions), data modeling, data visualization and storytelling, and KPI design using maps, charts, cards, and tables. Each project included here showcases a different aspect of my analytical thinking and visualization skills. My first project, the Meesho Sales Analysis Dashboard, focuses on analyzing sales performance, profit trends, and product categories using region-wise and product-wise sales visuals, dynamic KPIs for Total Sales, Profit, and Orders, and profit vs. discount analysis to identify top-performing regions and products driving the highest revenue. The second project, the Student Score Dashboard, focuses on academic analytics — tracking student performance across subjects using interactive filters for gender, class, and subject, KPIs for average scores and pass percentages, and conditional formatting for easy performance comparison, ultimately providing a clear performance overview for educators and management. The third project, the ETL & Data Transformation Project, demonstrates my understanding of the Power Query process, where I handled missing values, removed duplicates, cleaned data, and created calculated columns and measures, preparing a structured dataset ready for visualization and analysis.
+A collection of interactive, insightful dashboards and data analysis projects created using Microsoft Power BI. This repository documents my learning journey as a Data Analyst in training, exploring the complete data analysis lifecycle — from ETL (Extract, Transform, Load) to Data Cleaning, Modeling, KPI Creation, and Dashboard Visualization.
 
-All dashboard snapshots are shared as screenshots within this repository to visualize my progress and demonstrate how each Power BI report evolved as I learned advanced visualization techniques, interactive features, and KPI design. This repository also serves as a reflection of my continuous learning mindset — as I continue exploring advanced DAX formulas, row-level security (RLS), real-time dashboards, Power BI Service for cloud publishing, and even integrating Power BI with Python and R for enhanced analytics.
+Each project here represents my growth, curiosity, and passion for turning raw datasets into meaningful insights that tell a data-driven story.
 
-This entire journey represents my self-paced learning path as an aspiring Data Analyst, aimed at strengthening my data storytelling and visualization skills, understanding business-oriented insights, and building a professional portfolio that reflects real-world analytical thinking and practical Power BI proficiency. Each project here reflects both my growth and curiosity in using data to tell meaningful stories that inspire action.
+🌟 Features
+🧠 Data Analysis & Visualization
+
+ETL Pipeline: Efficient data extraction, cleaning, and transformation using Power Query
+
+Data Modeling: Building logical relationships and star schema for accurate analysis
+
+DAX (Data Analysis Expressions): Calculated columns, measures, and KPIs
+
+Interactive Dashboards: Filters, slicers, cards, and drill-down interactions
+
+Insightful Storytelling: Data presented with clarity, aesthetics, and purpose
+
+💻 Modern Dashboard Design
+
+Clean, Responsive Layouts: Designed for both desktop and presentation views
+
+Dynamic KPIs: Real-time metric updates (Sales, Profit, Scores, etc.)
+
+Conditional Formatting: Highlighting trends and comparisons visually
+
+Custom Visuals: Advanced charts, maps, and hierarchies for deeper insights
+
+🔧 Technical Skills Demonstrated
+
+Power BI Desktop
+
+Power Query (ETL Process)
+
+DAX (Data Analysis Expressions)
+
+Data Modeling & Relationships
+
+KPI Design & Performance Metrics
+
+Data Visualization & Storytelling
+
+Power BI Service (for future publishing)
+
+🏗️ Architecture Overview
+┌─────────────────┐     ┌────────────────────┐     ┌────────────────────┐
+│   Raw Datasets   │ ──► │   Power Query (ETL) │ ──► │   Power BI Dashboard │
+│   (Excel/CSV)    │     └────────────────────┘     └────────────────────┘
+         │                     │                           │
+         ▼                     ▼                           ▼
+  Data Cleaning →  Data Modeling & DAX  →  Interactive Visualization
+
+📁 Project Structure
+PowerBI-Learning/
+├── 📂 Meesho_Sales_Analysis/       # E-commerce sales analysis project
+│   ├── 📄 Meesho_Sales.pbix        # Power BI dashboard file
+│   ├── 📊 dataset.csv              # Sales data source
+│   ├── 📸 dashboard_screenshot.png # Final dashboard view
+│   └── 📝 insights.txt             # Key findings
+│
+├── 📂 Student_Score_Dashboard/     # Education performance analytics
+│   ├── 📄 Student_Scores.pbix
+│   ├── 📊 student_data.csv
+│   ├── 📸 dashboard_preview.png
+│   └── 📝 observations.txt
+│
+├── 📂 ETL_Transformation_Project/  # Data preprocessing and cleaning
+│   ├── 📄 Data_Transformation.pbix
+│   ├── 📊 raw_data.csv
+│   ├── 📊 transformed_data.xlsx
+│   └── 📝 steps_documentation.txt
+│
+├── 📁 Screenshots/                 # All dashboard visuals
+│   ├── Meesho.png
+│   ├── Students.png
+│   └── ETL.png
+│
+└── 📄 README.md                    # Documentation (this file)
+
+🔍 Project Summaries
+🛍️ Meesho Sales Analysis Dashboard
+
+Goal: Analyze product performance, revenue, and profit distribution for Meesho sales data.
+Key Features:
+
+Region-wise and category-wise sales analysis
+
+Profit vs. discount visualization
+
+KPIs for Total Sales, Profit, and Orders
+Outcome: Identified top-performing regions and products driving the highest revenue growth.
+
+🎓 Student Score Dashboard
+
+Goal: Evaluate student academic performance across subjects and classes.
+Key Features:
+
+Interactive filters (Gender, Subject, Class)
+
+KPIs for average scores and pass percentage
+
+Conditional formatting to highlight top/bottom performers
+Outcome: Provided a clear performance overview for teachers and administrators.
+
+🔄 ETL & Data Transformation Project
+
+Goal: Perform comprehensive data cleaning and preparation before visualization.
+Process:
+
+Handle missing values and remove duplicates
+
+Create calculated columns and standardized measures
+
+Prepare data models for dashboard-ready visualization
+Outcome: Produced clean, consistent, and analysis-ready datasets for Power BI projects.
